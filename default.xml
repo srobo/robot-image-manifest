@@ -1,0 +1,6 @@
+<manifest>
+    <remote fetch="git@github.com:srobo/" name="srobo-github"/>
+
+
+    <project remote="srobo-github" revision="d539e46b7df9d1af9a8e82fb8df53f803b87b0ca" name="meta-odroid-u3" path="sources/meta-odroid-u3"/>
+</manifest>
