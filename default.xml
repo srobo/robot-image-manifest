@@ -1,6 +1,14 @@
 <manifest>
-    <remote fetch="git@github.com:srobo/" name="srobo-github"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="https://git.openembedded.org" name="openembedded"/>
+  <remote fetch="ssh://git@github.com/srobo" name="srobo-github"/>
 
+  <project remote="yocto" revision="0b500dba7ad1eb222b1703795967da7f88aeeb50" name="poky" path="sources/poky"/>
+  <project remote="openembedded" revision="33c00e34fc2b085ea538445bbd1ba339024d4d8a" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-    <project remote="srobo-github" revision="d539e46b7df9d1af9a8e82fb8df53f803b87b0ca" name="meta-odroid-u3" path="sources/meta-odroid-u3"/>
+  <project remote="srobo-github" revision="42742bb93c6052627501b8a9408d2547f94a1514" name="meta-odroid-u3" path="sources/meta-odroid-u3"/>
+  <project remote="srobo-github" revision="79de6510da8ffe4ad3865be6e3811f2b2e1f6642" name="meta-srobo" path="sources/meta-srobo"/>
+  <project remote="srobo-github" revision="50684e16a03e6ee5c385e4844ee8b657a0fad189" name="robot-image-build-config" path="config">
+    <linkfile dest="setup-odroid-build" src="setup-odroid-build.sh"/>
+  </project>
 </manifest>
