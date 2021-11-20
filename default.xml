@@ -7,7 +7,7 @@
   <project remote="openembedded" revision="33c00e34fc2b085ea538445bbd1ba339024d4d8a" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="srobo-github" revision="42742bb93c6052627501b8a9408d2547f94a1514" name="meta-odroid-u3" path="sources/meta-odroid-u3"/>
-  <project remote="srobo-github" revision="79de6510da8ffe4ad3865be6e3811f2b2e1f6642" name="meta-srobo" path="sources/meta-srobo"/>
+  <project remote="srobo-github" revision="ce1df0e5440b2980858d9b8eff380856c35dc4fb" name="meta-srobo" path="sources/meta-srobo"/>
   <project remote="srobo-github" revision="50684e16a03e6ee5c385e4844ee8b657a0fad189" name="robot-image-build-config" path="config">
     <linkfile dest="setup-odroid-build" src="setup-odroid-build.sh"/>
   </project>
