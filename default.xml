@@ -3,8 +3,8 @@
   <remote fetch="https://git.openembedded.org" name="openembedded"/>
   <remote fetch="https://github.com/srobo" name="srobo-github"/>
 
-  <project remote="yocto" revision="0b500dba7ad1eb222b1703795967da7f88aeeb50" name="poky" path="sources/poky"/>
-  <project remote="openembedded" revision="33c00e34fc2b085ea538445bbd1ba339024d4d8a" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="yocto" revision="c44fcd2745e84835603a0f51834872eb00c08d07" name="poky" path="sources/poky"/>
+  <project remote="openembedded" revision="4647e3ea3708d30eeb0149f6d5626c9576bff520" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="srobo-github" revision="42742bb93c6052627501b8a9408d2547f94a1514" name="meta-odroid-u3" path="sources/meta-odroid-u3"/>
   <project remote="srobo-github" revision="ce1df0e5440b2980858d9b8eff380856c35dc4fb" name="meta-srobo" path="sources/meta-srobo"/>
