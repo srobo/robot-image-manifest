@@ -1,7 +1,7 @@
 <manifest>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="https://git.openembedded.org" name="openembedded"/>
-  <remote fetch="ssh://git@github.com/srobo" name="srobo-github"/>
+  <remote fetch="https://github.com/srobo" name="srobo-github"/>
 
   <project remote="yocto" revision="0b500dba7ad1eb222b1703795967da7f88aeeb50" name="poky" path="sources/poky"/>
   <project remote="openembedded" revision="33c00e34fc2b085ea538445bbd1ba339024d4d8a" name="meta-openembedded" path="sources/meta-openembedded"/>
