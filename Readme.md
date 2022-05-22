@@ -1,6 +1,8 @@
 Robot image layer manifest
 ==========================
 
+**DEPRECATED: You probably want [srobo/robot-image](https://github.com/srobo/robot-image).**
+
 This repository contains the repo manifest for the layers used to build the robot images using yocto.
 
 Quickstart
